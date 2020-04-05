@@ -1,0 +1,35 @@
+/**
+ * CUSTOM CSS
+ *
+ * Here you can add your custom CSS code.
+ */
+.c-header__brand .c-brand__first-word,
+.c-header__brand .c-brand__second-word,
+.c-footer__brand .c-brand__first-word,
+.c-footer__brand .c-brand__second-word {
+  display: inline;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.c-intro p {
+  font-size: inherit;
+}
+
+.c-profile__icon .fas,
+.c-profile__icon .far,
+.c-profile__icon .fal,
+.c-profile__icon .fab {
+  color: inherit;
+}
+
+@media (min-width: 1024px) {
+  .c-header__header,
+  .c-header__content {
+    height: 60vh;
+  }
+}
+
+.t-link-container__item {
+  color: #f8bb10;
+}
