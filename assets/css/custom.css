@@ -38,6 +38,7 @@
 }
 
 /***Temp Styles avoid media queries**/
+/*
 .c-header__header,
 .c-header__content {
   height: 80vh;
@@ -276,4 +277,4 @@
 }
 .u-hide-xl {
   display: none !important;
-}
+}*/
