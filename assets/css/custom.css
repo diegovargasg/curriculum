@@ -47,6 +47,18 @@ h6 {
 }
 
 /***Temp Styles avoid media queries**/
+.c-footer__contact-divider {
+  margin-bottom: 6rem;
+}
+.t-title {
+  font-size: 4rem;
+}
+.c-avatar__img {
+  width: 12rem;
+}
+.o-section__content.c-header__content {
+  padding-top: 1rem;
+}
 .o-section__content {
   padding: 1.75rem 3rem 0rem;
 }
