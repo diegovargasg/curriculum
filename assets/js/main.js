@@ -5,13 +5,13 @@ $(document).ready(function () {
   setup_dense();
 
   $(window).load(function () {
-    //$(".js-preloader").fadeOut(800, function () {
-    $(".js-main-container").fadeIn(200);
+    $(".js-preloader").fadeOut(800, function () {
+      $(".js-main-container").fadeIn(800);
 
-    //setup_scrollreveal();
-    //setup_progress_bar_animation();
+      setup_scrollreveal();
+      setup_progress_bar_animation();
+    });
   });
-  //});
 });
 
 function setup_progress_bar_animation() {
@@ -82,7 +82,7 @@ function setup_scrollreveal() {
     var default_delay = 175;
 
     sr.reveal(".a-header", header_config, default_delay);
-    sr.reveal(".a-footer", footer_config, default_delay);
+    //sr.reveal(".a-footer", footer_config, default_delay);
   }
 }
 
