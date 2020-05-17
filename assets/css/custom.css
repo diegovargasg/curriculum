@@ -47,8 +47,17 @@ h6 {
 }
 
 /***Temp Styles avoid media queries**/
+body {
+  line-height: 1.74;
+}
+.o-section.t-section.awards .o-grid__col-md-4 {
+  padding-right: 3rem;
+}
+.c-footer__contact {
+  margin-bottom: 0;
+}
 .c-footer__contact-divider {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .t-title {
   font-size: 4rem;
@@ -60,12 +69,14 @@ h6 {
   padding-top: 1rem;
 }
 .o-section__content {
-  padding: 1.75rem 3rem 0rem;
+  padding: 1.7rem 1.7rem 0rem 3rem;
 }
 .o-section__header {
-  padding: 1.75rem 3rem 0rem;
+  padding: 1.7rem 1.7rem 0rem 3rem;
 }
-
+.o-content {
+  padding-bottom: 1.7rem;
+}
 /*
 .c-header__header,
 .c-header__content {
