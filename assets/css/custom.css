@@ -37,7 +37,24 @@
   color: #f8bb10;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
 /***Temp Styles avoid media queries**/
+.o-section__content {
+  padding: 1.75rem 3rem 0rem;
+}
+.o-section__header {
+  padding: 1.75rem 3rem 0rem;
+}
+
+/*
 .c-header__header,
 .c-header__content {
   height: 80vh;
@@ -277,3 +294,4 @@
 .u-hide-xl {
   display: none !important;
 }
+*/
