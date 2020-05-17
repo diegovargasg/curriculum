@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(".js-main-container").fadeIn(200);
 
     //setup_scrollreveal();
-    setup_progress_bar_animation();
+    //setup_progress_bar_animation();
   });
   //});
 });
