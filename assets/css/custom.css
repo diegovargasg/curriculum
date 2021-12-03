@@ -46,6 +46,12 @@ h6 {
   margin-bottom: 0;
 }
 
+@media print {
+  #experience {
+    margin-bottom: 100px;
+  }
+}
+
 /***Temp Styles for PDF generator**/
 /*body {
   font-size: 0.98rem;
