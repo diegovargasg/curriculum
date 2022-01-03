@@ -48,47 +48,9 @@ h6 {
 
 @media print {
   #experience {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+  }
+  p {
+    margin-bottom: 0;
   }
 }
-
-/***Temp Styles for PDF generator**/
-/*body {
-  font-size: 0.98rem;
-  line-height: 1.74;
-}
-.c-header__brand {
-  margin-bottom: 1.2rem;
-}
-.c-intro p {
-  margin-bottom: 1rem;
-}
-.c-deco-line {
-  margin-top: 0.5rem;
-  margin-bottom: 0.8rem;
-  height: 4px;
-}
-.c-footer__contact {
-  margin-bottom: 0;
-}
-.c-footer__contact-divider {
-  margin-bottom: 3rem;
-}
-.t-title {
-  font-size: 4rem;
-}
-.c-avatar__img {
-  width: 12rem;
-}
-.o-section__content.c-header__content {
-  padding-top: 1rem;
-}
-.o-section__content {
-  padding: 1.7rem 1.7rem 0rem 3rem;
-}
-.o-section__header {
-  padding: 1.7rem 1.7rem 0rem 3rem;
-}
-.o-content {
-  padding-bottom: 1.7rem;
-}*/
